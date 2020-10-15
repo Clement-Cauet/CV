@@ -1,0 +1,73 @@
+body {
+    background-color: #DEDEDE;
+}
+
+p {
+    margin: 0%;
+}
+
+td {
+    width: 250px;
+    height: 70px;
+}
+
+.main {
+    height: 1350px;
+}
+
+.cv-page {
+    top: 200px;
+    width: 800px;
+    height: 29.5cm;
+    position: relative;
+    left: 20%;
+    border-bottom: 1px;
+    border-color: #474747;
+    box-shadow: -5px 5px 10px 5px #00000070;
+}
+
+/* tag for the colonne at left of my CV with my profil, my skills, my languages and my hobbies (color, size, position...) */
+.colonneGauche { 
+    color: white;
+    background-color: #00006e;
+    width: 250px;
+    height: 29.5cm;
+    position: absolute;
+    margin: 0%;
+}
+
+.lign-left {
+    width: 150px;
+    margin: 30px;
+}
+
+.photo {
+    width: 250px;
+}
+
+.name {
+    text-align: center;
+    margin: 30px;
+}
+
+.colonneContenu {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    font-family: 'Lato';
+}
+
+/* tag for the colonne at right of my CV with my education degrees, my training, my Professional Experiences (color, size, position...) */
+
+.colonneDroite {
+    left: 280px;
+    position: absolute;
+    width: 500px;
+}
+
+.lign-right {
+    width: 400px;
+    margin: 10px;
+}
